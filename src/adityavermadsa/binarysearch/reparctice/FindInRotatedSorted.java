@@ -12,7 +12,6 @@ public class FindInRotatedSorted {
 		while (start<end) {
 			
 			int mid=(start+end)/2;
-			
 			if (arr[mid]<arr[end]) {
 				System.out.println("Goint left side ");
 				end=mid;
